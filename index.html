@@ -5,25 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPS Nettoyage Services</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f4; margin: 0; }
-        header { background: #007BFF; color: white; padding: 20px; font-size: 24px; }
-        section { padding: 20px; }
-        .services { background: white; padding: 20px; margin: 20px; border-radius: 10px; }
-        .btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        /* Estilos Generales */
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #f4f4f4; 
+            color: #333; 
+        }
+        header {
+            background: #007BFF; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            font-size: 24px;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenue chez NPS Nettoyage Services</h1>
-        <p>Votre partenaire de confiance pour un environnement propre et sain.</p>
+        NPS Nettoyage Services
     </header>
-    <section class="services">
-        <h2>Nos Services</h2>
-        <p>✔ Nettoyage de bureaux et locaux professionnels</p>
-        <p>✔ Entretien des immeubles et copropriétés</p>
-        <p>✔ Nettoyage après travaux et déménagement</p>
-        <p>✔ Désinfection et nettoyage approfondi</p>
+    
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Services</a>
+        <a href="#">À propos</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Bienvenue chez NPS Nettoyage Services</h2>
+        <p>Votre partenaire de confiance pour un environnement propre et sain.</p>
+        <h3>Nos Services</h3>
+        <ul>
+            <li>✔ Nettoyage de bureaux et locaux professionnels</li>
+            <li>✔ Entretien des immeubles et copropriétés</li>
+            <li>✔ Nettoyage après travaux et déménagement</li>
+            <li>✔ Désinfection et nettoyage approfondi</li>
+        </ul>
         <a href="mailto:contact@npsnettoyage.fr" class="btn">Demandez un devis</a>
     </section>
+
+    <footer>
+        © 2024 NPS Nettoyage Services - Tous droits réservés.
+    </footer>
 </body>
 </html>
